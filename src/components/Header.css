@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+.header-section {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section li {
+    margin-right: 30px;
+}
+
+.header-section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}

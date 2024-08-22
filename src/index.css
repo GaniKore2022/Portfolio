@@ -1,0 +1,88 @@
+body {
+  background-color: #090707aa;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.home-section {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-content h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.home-content .typed-text {
+  color: #00cccc;
+  border-right: 2px solid #00cccc;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(40, end), blink .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: #00cccc; }
+}
+
+.social-icons a {
+  color: #00cccc;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.btn-resume {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  background-color: #00cccc;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-resume:hover {
+  background-color: #00aaaa;
+}

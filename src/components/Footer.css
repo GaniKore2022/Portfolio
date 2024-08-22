@@ -1,0 +1,14 @@
+.footer-section {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 2px solid #535f76;
+    margin-top: 40px;
+  }
+  
+  .footer-section p {
+    margin: 0;
+  }
+  

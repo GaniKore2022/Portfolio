@@ -1,0 +1,39 @@
+.skills-section {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: left; /* Changed to left-align the entire section */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center; /* Ensure the title is left-aligned */
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Aligns items to the left */
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.skill-logo {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}

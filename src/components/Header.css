@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+.header-section {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section li {
+    margin-right: 30px;
+}
+
+.header-section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header-section li {
+        margin-right: 5px;
+    }
+
+    .header-section a {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,39 @@
+.about-section {
+    padding: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 2;
+    flex:auto;
+    color: #ffffff;
+  }
+  
+  .about-content p {
+    margin-bottom: 20px;
+  }
+  
+  .about-content p:last-child {
+    margin-bottom: 0;
+  }
+
+@media (max-width: 768px) {
+  .about-section {
+      padding: 10px; /* Less padding for mobile */
+      text-align: center; /* Center text */
+  }
+}
